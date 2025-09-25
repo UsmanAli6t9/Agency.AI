@@ -11,6 +11,9 @@ import Footer from './components/Footer'
 
 const App = () => {
 
+   // State to manage theme (light/dark)
+  const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
+
 
   return (
     <div className='dark:bg-black relative'>
