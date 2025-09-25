@@ -13,3 +13,8 @@
 @theme{
   --color-primary: #5044E5;
 }
+@media (max-width: 768px) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
